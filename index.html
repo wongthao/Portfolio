@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Wong's Porfolio">
-    <meta name="keyword" content="Web developer porfolio">
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio wireFrame</title>
-
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -22,19 +20,24 @@
             <li><a href="#About" class="nav-links">About</a>
             </li>
         </ul>
-    </nav>
-    <main role="main" class="container">
+    </nav>  
+
+    <main class="container">
 
         <header>
-            <h2>Wong Thao The developer Awakens</h2>
-            <p>Image of me</p>
+            <h2>Wong Thao <span>The developer</span> Awakens</h2>
+            <img src="pictureFile/aboutme.jpg" class="aboutMe" alt="aboutMe">
 
         </header>
 
+        <hr>
+
         <section id="About" class="About">
-            <h2>About</h2>
-            <p>Bio</p>
+            <h2>About </h2>
+            <p>Wong is a future junior web developer from Wisconsin. Wong is a respectful, hard working individual with a passion for learning and helping others. He is currently enrolled with Bloc coding boot camp with a focus on HTML, CSS, JS, Github,  jQuery, React and SQL. In his spare time he enjoys outdoor activities such as fishing, playing sports and leveling up in code wars. </p>
         </section>
+
+        <hr>
 
         <section id="Projects" class=" Projects">
             <h2>Projects</h2>
@@ -42,11 +45,18 @@
             <div class=projectContainer>
 
                 <div class="quizApp">
-                    <img src="" class="screenShot" alt="projectSreenShot">
+                    
+                    <img src= "pictureFile/screenShot.png" class="screenShot" alt="projectSreenShot">
                     <div class="content">
                         <h3 class="appName">Quiz App</h3>
-                        <p>Project Description</p>
-                        <p>Links to live link and Repo</p>
+                        <p>This quiz app will test your knowledge about one of the most graceful and powerful cats, the leopard. Inside this quiz app you will learn fun facts about the location, diet and habits of this beautiful creature. </p>
+
+                        <p>Technologies used: HTML,CSS, JAVASCRIPT and JQuery</p>
+                        <div class = "projectLink">
+                            <a href="https://wongthao.github.io/QuizApp/" class ="projectUrl"> Live Page</a>
+
+                            <a href="https://github.com/wongthao/QuizApp" class ="projectUrl"> Repository</a>
+                        </div>
                     </div>
                 </div>
 
@@ -54,11 +64,16 @@
         </section>
 
     </main>
+
+    <hr>
+
     <footer id="Contact" class="contact-info">
-        <h2>Contact</h2>
-        <img class="icon-picture" src="pictures\mail.png">
-        <img class="icon-picture" src="pictures\github.png">
-        <img class="icon-picture" src="pictures\linkedin.png">
+        <h2 class = "contactColor">Contact</h2>
+        <a href = "mailto:wongthao12@gmail.com"><img class="icon-picture" alt="icon-email" src="pictureFile/mail.png"></a>
+
+        <a href = "https://github.com/wongthao"><img class="icon-picture" alt="icon-github" src="pictureFile/github.png"></a>
+
+        <a href= "https://www.linkedin.com/in/wong-thao-27142a1a7/"><img class="icon-picture" alt="icon-linkedin" src="pictureFile/linkedin.png"></a>
     </footer>
 
 
